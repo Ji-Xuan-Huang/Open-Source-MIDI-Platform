@@ -1,0 +1,623 @@
+[
+  {
+    "added_include_path": "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino"
+  },
+  {
+    "added_include_path": "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\leonardo"
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\sketch\\Demo.ino.cpp.merged",
+      "depfile_path": "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\sketch\\Demo.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega32u4",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_LEONARDO",
+        "-DARDUINO_ARCH_AVR",
+        "-DUSB_VID=0x2341",
+        "-DUSB_PID=0x8036",
+        "-DUSB_MANUFACTURER=\"Unknown\"",
+        "-DUSB_PRODUCT=\"Arduino Leonardo\"",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\leonardo",
+        "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\sketch\\Demo.ino.cpp.merged",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\sketch\\Demo.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "Wire.h"
+  },
+  {
+    "added_include_path": "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src"
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\sketch\\Demo.ino.cpp.merged",
+      "depfile_path": "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\sketch\\Demo.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega32u4",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_LEONARDO",
+        "-DARDUINO_ARCH_AVR",
+        "-DUSB_VID=0x2341",
+        "-DUSB_PID=0x8036",
+        "-DUSB_MANUFACTURER=\"Unknown\"",
+        "-DUSB_PRODUCT=\"Arduino Leonardo\"",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\leonardo",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src",
+        "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\sketch\\Demo.ino.cpp.merged",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\sketch\\Demo.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "Adafruit_BusIO_Register.h"
+  },
+  {
+    "added_include_path": "C:\\Users\\JX.Huang\\Documents\\Arduino\\libraries\\Adafruit_BusIO"
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\sketch\\Demo.ino.cpp.merged",
+      "depfile_path": "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\sketch\\Demo.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega32u4",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_LEONARDO",
+        "-DARDUINO_ARCH_AVR",
+        "-DUSB_VID=0x2341",
+        "-DUSB_PID=0x8036",
+        "-DUSB_MANUFACTURER=\"Unknown\"",
+        "-DUSB_PRODUCT=\"Arduino Leonardo\"",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\leonardo",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src",
+        "-IC:\\Users\\JX.Huang\\Documents\\Arduino\\libraries\\Adafruit_BusIO",
+        "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\sketch\\Demo.ino.cpp.merged",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\sketch\\Demo.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "SPI.h"
+  },
+  {
+    "added_include_path": "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src"
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\sketch\\Demo.ino.cpp.merged",
+      "depfile_path": "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\sketch\\Demo.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega32u4",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_LEONARDO",
+        "-DARDUINO_ARCH_AVR",
+        "-DUSB_VID=0x2341",
+        "-DUSB_PID=0x8036",
+        "-DUSB_MANUFACTURER=\"Unknown\"",
+        "-DUSB_PRODUCT=\"Arduino Leonardo\"",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\leonardo",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src",
+        "-IC:\\Users\\JX.Huang\\Documents\\Arduino\\libraries\\Adafruit_BusIO",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src",
+        "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\sketch\\Demo.ino.cpp.merged",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\sketch\\Demo.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\sketch\\Adafruit_MPR121.cpp",
+      "depfile_path": "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\sketch\\Adafruit_MPR121.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega32u4",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_LEONARDO",
+        "-DARDUINO_ARCH_AVR",
+        "-DUSB_VID=0x2341",
+        "-DUSB_PID=0x8036",
+        "-DUSB_MANUFACTURER=\"Unknown\"",
+        "-DUSB_PRODUCT=\"Arduino Leonardo\"",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\leonardo",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src",
+        "-IC:\\Users\\JX.Huang\\Documents\\Arduino\\libraries\\Adafruit_BusIO",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src",
+        "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\sketch\\Adafruit_MPR121.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\sketch\\Adafruit_MPR121.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src\\Wire.cpp",
+      "depfile_path": "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\libraries\\Wire\\Wire.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega32u4",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_LEONARDO",
+        "-DARDUINO_ARCH_AVR",
+        "-DUSB_VID=0x2341",
+        "-DUSB_PID=0x8036",
+        "-DUSB_MANUFACTURER=\"Unknown\"",
+        "-DUSB_PRODUCT=\"Arduino Leonardo\"",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\leonardo",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src",
+        "-IC:\\Users\\JX.Huang\\Documents\\Arduino\\libraries\\Adafruit_BusIO",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src",
+        "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src\\Wire.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\libraries\\Wire\\Wire.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src\\utility\\twi.c",
+      "depfile_path": "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\libraries\\Wire\\utility\\twi.c.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega32u4",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_LEONARDO",
+        "-DARDUINO_ARCH_AVR",
+        "-DUSB_VID=0x2341",
+        "-DUSB_PID=0x8036",
+        "-DUSB_MANUFACTURER=\"Unknown\"",
+        "-DUSB_PRODUCT=\"Arduino Leonardo\"",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\leonardo",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src",
+        "-IC:\\Users\\JX.Huang\\Documents\\Arduino\\libraries\\Adafruit_BusIO",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src",
+        "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src\\utility\\twi.c",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\libraries\\Wire\\utility\\twi.c.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\JX.Huang\\Documents\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_BusIO_Register.cpp",
+      "depfile_path": "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\libraries\\Adafruit_BusIO\\Adafruit_BusIO_Register.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega32u4",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_LEONARDO",
+        "-DARDUINO_ARCH_AVR",
+        "-DUSB_VID=0x2341",
+        "-DUSB_PID=0x8036",
+        "-DUSB_MANUFACTURER=\"Unknown\"",
+        "-DUSB_PRODUCT=\"Arduino Leonardo\"",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\leonardo",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src",
+        "-IC:\\Users\\JX.Huang\\Documents\\Arduino\\libraries\\Adafruit_BusIO",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src",
+        "C:\\Users\\JX.Huang\\Documents\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_BusIO_Register.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\libraries\\Adafruit_BusIO\\Adafruit_BusIO_Register.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\JX.Huang\\Documents\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_GenericDevice.cpp",
+      "depfile_path": "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\libraries\\Adafruit_BusIO\\Adafruit_GenericDevice.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega32u4",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_LEONARDO",
+        "-DARDUINO_ARCH_AVR",
+        "-DUSB_VID=0x2341",
+        "-DUSB_PID=0x8036",
+        "-DUSB_MANUFACTURER=\"Unknown\"",
+        "-DUSB_PRODUCT=\"Arduino Leonardo\"",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\leonardo",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src",
+        "-IC:\\Users\\JX.Huang\\Documents\\Arduino\\libraries\\Adafruit_BusIO",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src",
+        "C:\\Users\\JX.Huang\\Documents\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_GenericDevice.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\libraries\\Adafruit_BusIO\\Adafruit_GenericDevice.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\JX.Huang\\Documents\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_I2CDevice.cpp",
+      "depfile_path": "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\libraries\\Adafruit_BusIO\\Adafruit_I2CDevice.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega32u4",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_LEONARDO",
+        "-DARDUINO_ARCH_AVR",
+        "-DUSB_VID=0x2341",
+        "-DUSB_PID=0x8036",
+        "-DUSB_MANUFACTURER=\"Unknown\"",
+        "-DUSB_PRODUCT=\"Arduino Leonardo\"",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\leonardo",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src",
+        "-IC:\\Users\\JX.Huang\\Documents\\Arduino\\libraries\\Adafruit_BusIO",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src",
+        "C:\\Users\\JX.Huang\\Documents\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_I2CDevice.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\libraries\\Adafruit_BusIO\\Adafruit_I2CDevice.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\JX.Huang\\Documents\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_SPIDevice.cpp",
+      "depfile_path": "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\libraries\\Adafruit_BusIO\\Adafruit_SPIDevice.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega32u4",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_LEONARDO",
+        "-DARDUINO_ARCH_AVR",
+        "-DUSB_VID=0x2341",
+        "-DUSB_PID=0x8036",
+        "-DUSB_MANUFACTURER=\"Unknown\"",
+        "-DUSB_PRODUCT=\"Arduino Leonardo\"",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\leonardo",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src",
+        "-IC:\\Users\\JX.Huang\\Documents\\Arduino\\libraries\\Adafruit_BusIO",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src",
+        "C:\\Users\\JX.Huang\\Documents\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_SPIDevice.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\libraries\\Adafruit_BusIO\\Adafruit_SPIDevice.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src\\SPI.cpp",
+      "depfile_path": "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\libraries\\SPI\\SPI.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega32u4",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_LEONARDO",
+        "-DARDUINO_ARCH_AVR",
+        "-DUSB_VID=0x2341",
+        "-DUSB_PID=0x8036",
+        "-DUSB_MANUFACTURER=\"Unknown\"",
+        "-DUSB_PRODUCT=\"Arduino Leonardo\"",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\leonardo",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src",
+        "-IC:\\Users\\JX.Huang\\Documents\\Arduino\\libraries\\Adafruit_BusIO",
+        "-IC:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src",
+        "C:\\Users\\JX.Huang\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src\\SPI.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\JX.Huang\\GitHub\\Open-Source-MIDI-Platform\\.vscode\\arduino-build\\libraries\\SPI\\SPI.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  }
+]

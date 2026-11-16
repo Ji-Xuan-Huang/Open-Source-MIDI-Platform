@@ -1,0 +1,117 @@
+{
+  "version": "2.0.0",
+  "inputs": [
+    {
+      "id": "arduinoPort",
+      "type": "promptString",
+      "description": "Arduino serial port (for example, COM4)",
+      "default": "COM4"
+    },
+    {
+      "id": "arduinoMicroPort",
+      "type": "promptString",
+      "description": "Arduino Micro serial port (for example, COM7)",
+      "default": "COM7"
+    }
+  ],
+  "tasks": [
+    {
+      "label": "Arduino: List connected boards",
+      "type": "process",
+      "command": "arduino-cli",
+      "args": [
+        "board",
+        "list"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Arduino Micro: Compile BC-101_Pico",
+      "type": "process",
+      "command": "arduino-cli",
+      "args": [
+        "compile",
+        "--fqbn",
+        "arduino:avr:micro",
+        "${workspaceFolder}\\00.Firmware\\BC-101_Pico"
+      ],
+      "group": {
+        "kind": "build"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Arduino Micro: Compile and Upload BC-101_Pico",
+      "type": "process",
+      "command": "arduino-cli",
+      "args": [
+        "compile",
+        "--upload",
+        "--port",
+        "${input:arduinoMicroPort}",
+        "--fqbn",
+        "arduino:avr:micro",
+        "${workspaceFolder}\\00.Firmware\\BC-101_Pico"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Arduino: Compile Demo",
+      "type": "process",
+      "command": "arduino-cli",
+      "args": [
+        "compile",
+        "--fqbn",
+        "arduino:avr:leonardo",
+        "${workspaceFolder}\\00.Firmware\\Demo"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Arduino: Compile and Upload Demo",
+      "type": "process",
+      "command": "arduino-cli",
+      "args": [
+        "compile",
+        "--upload",
+        "--port",
+        "${input:arduinoPort}",
+        "--fqbn",
+        "arduino:avr:leonardo",
+        "${workspaceFolder}\\00.Firmware\\Demo"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Arduino: Compile Demo2",
+      "type": "process",
+      "command": "arduino-cli",
+      "args": [
+        "compile",
+        "--fqbn",
+        "arduino:avr:leonardo",
+        "${workspaceFolder}\\00.Firmware\\Demo2"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Arduino: Compile and Upload Demo2",
+      "type": "process",
+      "command": "arduino-cli",
+      "args": [
+        "compile",
+        "--upload",
+        "--port",
+        "${input:arduinoPort}",
+        "--fqbn",
+        "arduino:avr:leonardo",
+        "${workspaceFolder}\\00.Firmware\\Demo2"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
